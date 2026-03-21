@@ -1,7 +1,7 @@
 class Effectengine < Formula
   desc "An image editing toolset written in Rust."
   homepage "https://github.com/louisescher/effectengine"
-  version ""
+  version "0.1.4"
 
   on_macos do
     on_arm do
