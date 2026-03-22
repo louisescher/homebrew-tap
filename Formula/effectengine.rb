@@ -1,27 +1,27 @@
 class Effectengine < Formula
   desc "An image editing toolset written in Rust."
   homepage "https://github.com/louisescher/effectengine"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.5/effectengine-macos-aarch64.tar.gz"
-      sha256 "75c037e0a707d1c27da265ccddd506566411c7c6bd65325a84a84daf4339353a"
+      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.6/effectengine-macos-aarch64.tar.gz"
+      sha256 "9ca13675cf66b42e26c437caa86738d0dec92bdb9b9afa10d549557cb2b554b4"
     end
     on_intel do
-      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.5/effectengine-macos-x86_64.tar.gz"
-      sha256 "5b92c34c80ee819605e9df7dc1895e6310811bb934b906c9010ad539c533950f"
+      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.6/effectengine-macos-x86_64.tar.gz"
+      sha256 "78a2c625e75b88252903b6ecdeec8414eb0da0019f1b1ebbf2abca17ce2bec8a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.5/effectengine-linux-aarch64.tar.gz"
-      sha256 "4452aa87145899fd3761e3a4a956391c3c198527761e841624b63c268e3b34e5"
+      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.6/effectengine-linux-aarch64.tar.gz"
+      sha256 "df7d66c1125529daafc1c45c63f76cb294295ba8f417cd8b7100a09e9b814a1d"
     end
     on_intel do
-      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.5/effectengine-linux-x86_64.tar.gz"
-      sha256 "17d74ac5b325a1d5f67cb22370c1348cac5d0b3d1d044dc2a05ea088d211ce14"
+      url "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.1.6/effectengine-linux-x86_64.tar.gz"
+      sha256 "1f816a0ca78d517428380fb1d4542f7c469b31c7d0f8b20ea08c8979111c1b18"
     end
   end
 
