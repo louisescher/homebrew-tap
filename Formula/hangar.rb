@@ -1,8 +1,8 @@
 class Hangar < Formula
   desc "A TUI package manager for AI agent skills"
   homepage "https://github.com/louisescher/hangar"
-  url "https://github.com/louisescher/hangar/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "03481aa0173ed7144bc4e25bd6d2450a666a9e29381fae9b2f611b1388946336"
+  url "https://github.com/louisescher/hangar/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "29f08f20d9a3f425c91724d8af8fc3e79ff88293ff2c34d490e3bb961e0ea674"
   license "MIT"
 
   depends_on "go" => :build
